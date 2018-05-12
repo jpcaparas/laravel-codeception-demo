@@ -1,5 +1,7 @@
 # Laravel / Codeception demo
 
+[![Build Status](https://travis-ci.org/jpcaparas/laravel-codeception-demo.svg?branch=master)](https://travis-ci.org/jpcaparas/laravel-codeception-demo)
+
 A demo repository featuring the capabilities of Codeception testing framework when used with Laravel.
 
 ## Overview
