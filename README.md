@@ -14,7 +14,7 @@ and more streamlined and structured.
 ## Prerequisites
 
 1. A basic idea of what tests are
-1. PHP 7.x
+1. PHP 7.1.x
 1. Yarn 1.6.x
 1. A web server
 
