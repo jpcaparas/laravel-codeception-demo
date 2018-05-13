@@ -34,3 +34,11 @@ and more streamlined and structured.
 ## Notes
 
 The _README_ for this repo is still a work-in-progress.
+
+## Attributions
+
+![Figured Ltd.](https://i.imgur.com/K60fzHS.png)  
+
+I am a product developer for Figured, Ltd, a cloud-based farm financial management software company disrupting the 
+agriculture industry. We're headquartered at Auckland, New Zealand.
+
