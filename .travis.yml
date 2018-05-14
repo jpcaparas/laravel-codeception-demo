@@ -36,6 +36,7 @@ before_install:
 
 install:
 - composer install --no-interaction
+- php artisan storage:link
 - php artisan key:generate --env=testing
 - php artisan config:cache --env=testing
 

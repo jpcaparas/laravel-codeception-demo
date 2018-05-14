@@ -6,6 +6,6 @@ class HomeCest
     {
         $I->wantTo('Check if the home page has the text I expect.');
         $I->amOnPage('/');
-        $I->waitForText('Laravel', 5);
+        $I->waitForText('Example Component', 5);
     }
 }
