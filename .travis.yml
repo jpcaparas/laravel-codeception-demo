@@ -36,6 +36,8 @@ before_install:
 
 install:
 - composer install --no-interaction
+- yarn install --verbose --non-interactive --no-progress
+- yarn run --verbose production
 - php artisan storage:link
 - php artisan key:generate --env=testing
 - php artisan config:cache --env=testing
