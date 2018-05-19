@@ -86,7 +86,8 @@ class StripeApiClientTest extends \Codeception\Test\Unit
             )
             ->andReturns([
                 json_encode($response),
-                $returnCode
+                $returnCode,
+                []
             ]);
 
         return $this->clientMock->request($method, $absUrl, $headers, $params, $hasFile);
