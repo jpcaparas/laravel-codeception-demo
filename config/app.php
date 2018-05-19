@@ -160,6 +160,10 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+        /**
+         * Demo Service Providers
+         */
+        App\Packages\StripeApiClient\Providers\StripeApiClientProvider::class,
     ],
 
     /*
