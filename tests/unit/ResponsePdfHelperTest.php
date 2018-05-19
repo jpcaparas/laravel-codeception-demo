@@ -1,9 +1,9 @@
 <?php
 namespace Tests\Unit;
 
-use Tests\TestCase;
+use Codeception\Test\Unit;
 
-class ResponsePdfHelperTest extends TestCase
+class ResponsePdfHelperTest extends Unit
 {
     /**
      * @dataProvider contentDispositionDataProvider

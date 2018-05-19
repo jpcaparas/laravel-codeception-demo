@@ -3,14 +3,14 @@ namespace Tests\Unit;
 
 use App\Contracts\StripeApiClient;
 use App\Packages\StripeApiClient\Config\ApiClientConfig;
+use Codeception\Test\Unit;
 use Mockery\CompositeExpectation;
 use Mockery\MockInterface;
 use Stripe\ApiRequestor;
 use Stripe\HttpClient\ClientInterface;
 use Stripe\Stripe;
-use Tests\TestCase;
 
-class StripeApiClientTest extends TestCase
+class StripeApiClientTest extends Unit
 {
     /**
      * @var StripeApiClient

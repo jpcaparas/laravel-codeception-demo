@@ -1,9 +1,9 @@
 <?php
 namespace Tests\Unit;
 
-use Tests\TestCase;
+use Codeception\Test\Unit;
 
-class SafeFileNameHelperTest extends TestCase
+class SafeFileNameHelperTest extends Unit
 {
     /**
      * @dataProvider fileNameProvider
