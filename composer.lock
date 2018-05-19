@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "0c263068171de004a342a86f07119f12",
+    "content-hash": "fb0ccdeb10d8ad97b986403da1fb9186",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -2429,6 +2429,47 @@
                 "unit testing"
             ],
             "time": "2018-03-31T22:30:43+00:00"
+        },
+        {
+            "name": "codeception/mockery-module",
+            "version": "0.2.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Codeception/MockeryModule.git",
+                "reference": "d01f9d0c52cf4fa87c789c65191027a0d434bd3d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Codeception/MockeryModule/zipball/d01f9d0c52cf4fa87c789c65191027a0d434bd3d",
+                "reference": "d01f9d0c52cf4fa87c789c65191027a0d434bd3d",
+                "shasum": ""
+            },
+            "require": {
+                "codeception/codeception": "^2.0",
+                "mockery/mockery": "^0.8|^0.9|^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Codeception\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Michael Bodnarchuk",
+                    "email": "davert.php@mailican.com"
+                },
+                {
+                    "name": "Jáchym Toušek",
+                    "email": "enumag@gmail.com"
+                }
+            ],
+            "description": "Mockery Module for Codeception",
+            "time": "2017-10-10T16:22:46+00:00"
         },
         {
             "name": "codeception/phpunit-wrapper",

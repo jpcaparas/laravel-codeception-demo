@@ -4,6 +4,7 @@ namespace Tests\Unit;
 use App\Contracts\StripeApiClient;
 use App\Packages\StripeApiClient\Config\ApiClientConfig;
 use Codeception\Test\Unit;
+use Mockery as m;
 use Mockery\CompositeExpectation;
 use Mockery\MockInterface;
 use Stripe\ApiRequestor;
@@ -26,7 +27,7 @@ class StripeApiClientTest extends Unit
     {
         parent::setUp();
 
-        $this->httpClientMock = \Mockery::mock(ClientInterface::class);
+        $this->httpClientMock = m::mock(ClientInterface::class);
 
         $config = new ApiClientConfig();
         $config->setApiKey('test');
@@ -35,13 +36,6 @@ class StripeApiClientTest extends Unit
         $this->apiClient
             ->setConfig($config)
             ->setHttpClient($this->httpClientMock);
-    }
-
-    protected function tearDown()
-    {
-        parent::tearDown();
-
-        \Mockery::close();
     }
 
     /**

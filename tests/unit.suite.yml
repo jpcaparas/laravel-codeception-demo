@@ -7,4 +7,5 @@ modules:
     enabled:
         - Laravel5
         - Asserts
+        - Mockery
         - \Helper\Unit
