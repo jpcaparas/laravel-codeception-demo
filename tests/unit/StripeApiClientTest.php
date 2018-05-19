@@ -1,6 +1,5 @@
 <?php
-
-namespace Tests\Feature;
+namespace Tests\Unit;
 
 use App\Contracts\StripeApiClient;
 use App\Packages\StripeApiClient\Config\ApiClientConfig;
