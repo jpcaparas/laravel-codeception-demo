@@ -27,10 +27,6 @@ and more streamlined and structured.
 1. Run `yarn`.
 1. Run `./vendor/bin/codecept run`.
 
-## Benefits of Codeception
-
-1. [Prettier, more coherent console output](https://i.imgur.com/k6NkSk8.png)
-
 ## Notes
 
 The _README_ for this repo is still a work-in-progress.
