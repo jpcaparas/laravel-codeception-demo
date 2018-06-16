@@ -41,7 +41,7 @@ install:
 - php artisan storage:link
 - php artisan key:generate --env=testing
 - php artisan config:cache --env=testing
-- php artisan serve --port=80 &
+- php artisan serve &
 
 before_script:
 - export PATH=$PATH:/usr/lib/chromium-browser/
