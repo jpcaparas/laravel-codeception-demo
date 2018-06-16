@@ -29,7 +29,6 @@ git:
   submodules: false
 
 before_install:
-- netstat -tulpn | grep :80
 - sudo apt-get update
 - phpenv config-rm xdebug.ini
 
