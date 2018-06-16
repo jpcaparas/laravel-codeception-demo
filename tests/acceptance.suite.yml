@@ -8,9 +8,9 @@ actor: AcceptanceTester
 modules:
     enabled:
         - WebDriver:
-            url: 'http://localhost:8000/'
-            browser: chrome
+            url: 'http://localhost:8000'
             port: 9515
+            browser: 'chrome'
             capabilities:
               chromeOptions:
                 args:
@@ -19,3 +19,16 @@ modules:
                   - "window-size=1920x1080"
             window_size: false
         - \Helper\Acceptance
+env:
+    travis:
+        modules:
+           enabled:
+               - WebDriver:
+                    url: 'http://73168e71.ngrok.io'
+                    host: '%SAUCELABS_SELENIUM_HOST%'
+                    port: 80
+                    browser: 'chrome'
+                    capabilities:
+                        browserName: 'chrome'
+                        version: 'latest'
+                        platform: 'Linux'
