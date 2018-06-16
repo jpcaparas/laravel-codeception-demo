@@ -24,7 +24,7 @@ env:
         modules:
            enabled:
                - WebDriver:
-                    url: 'http://73168e71.ngrok.io'
+                    url: 'http://%SAUCELABS_SELENIUM_HOST%'
                     host: '%SAUCELABS_SELENIUM_HOST%'
                     port: 80
                     browser: 'chrome'
