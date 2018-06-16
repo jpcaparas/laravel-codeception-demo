@@ -24,8 +24,8 @@ env:
         modules:
            enabled:
                - WebDriver:
-                    url: 'http://%SAUCE_USERNAME%:%SAUCE_ACCESS_KEY%@localhost:4445'
-                    host: '%SAUCELABS_SELENIUM_HOST%'
+                    url: 'http://localhost'
+                    host: '%SAUCE_USERNAME%:%SAUCE_ACCESS_KEY%@localhost%'
                     port: 80
                     browser: 'chrome'
                     capabilities:
