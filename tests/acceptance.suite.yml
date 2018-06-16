@@ -29,7 +29,10 @@ env:
                     port: 80
                     browser: 'chrome'
                     capabilities:
-                        tunnelIdentifier: '%TRAVIS_JOB_NUMBER%'
+                        build: '%TRAVIS_BUILD_NUMBER%'
+                        'tunnel-identifier': '%TRAVIS_JOB_NUMBER%'
+                        username: '%SAUCE_USERNAME%',
+                        accessKey: '%SAUCE_ACCESSKEY%'
                         browserName: 'chrome'
                         version: 'latest'
                         platform: 'Linux'
