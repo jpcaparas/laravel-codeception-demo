@@ -31,7 +31,7 @@ env:
                     capabilities:
                         build: '%TRAVIS_BUILD_NUMBER%'
                         'tunnel-identifier': '%TRAVIS_JOB_NUMBER%'
-                        username: '%SAUCE_USERNAME%',
+                        username: '%SAUCE_USERNAME%'
                         accessKey: '%SAUCE_ACCESSKEY%'
                         browserName: 'chrome'
                         version: 'latest'
