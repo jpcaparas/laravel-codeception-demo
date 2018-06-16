@@ -25,7 +25,7 @@ env:
            enabled:
                - WebDriver:
                     url: 'http://localhost'
-                    host: '%SAUCE_USERNAME%:%SAUCE_ACCESS_KEY%@localhost%'
+                    host: '%SAUCE_USERNAME%:%SAUCE_ACCESS_KEY%@localhost'
                     port: 80
                     browser: 'chrome'
                     capabilities:
