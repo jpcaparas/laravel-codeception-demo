@@ -30,6 +30,7 @@ git:
 
 before_install:
 - sudo apt-get update
+- sudo apt-get install chromium-chromedriver
 - phpenv config-rm xdebug.ini
 
 install:
@@ -40,6 +41,7 @@ install:
 - php artisan key:generate --env=testing
 - php artisan config:cache --env=testing
 - sudo php artisan serve --port=80 &
+- chromedriver --url-base=/wd/hub &
 
 script:
 - php vendor/bin/codecept run --env=travis --verbose --fail-fast --html
