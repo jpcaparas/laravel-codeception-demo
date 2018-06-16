@@ -38,3 +38,10 @@ The _README_ for this repo is still a work-in-progress.
 I am a product developer for Figured, Ltd, a cloud-based farm financial management software company disrupting the 
 agriculture industry. We're headquartered at Auckland, New Zealand.
 
+***
+
+![Sauce Labs logo](https://i.imgur.com/JP1M3d0.png)
+
+Browser testing provided by [Sauce Labs](https://saucelabs.com/).
+
+
